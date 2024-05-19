@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Radio Canada Big", sans-serif;
+    background: rgb(243, 243, 243);
+    background: linear-gradient(26deg, rgb(206, 206, 206) 17%, rgb(255, 255, 255) 83%);
+}
+
+/*cabecalho*/ 
+
+#cabecalho{
+    height:50px ;
+}
+
+.logo{
+    float: left;
+    margin: 40px 0 40px 80px;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 40px 80px 40px 0;
+    padding: 14px;
+    display: flex;
+    float: right;
+    font-size: 20px;
+}
+
+.menu li a{
+    margin: 0 20px;   
+    padding: 8px 25px;
+    border-radius: 4px;
+}
+
+.menu li a:hover{
+    color: white;
+    transform: scaleX(1.1)  scaleY(1.1);
+    background-color: black;
+    transition: all 0.2s ease;
+}
+
+/*area de postagem*/
+#conteudo{
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    clear: both;
+}
+
+.sobreportifolio{
+    color: white;
+    font-size: 25px;
+    height: 100%;
+    width: 500px;
+    background-color: black;
+    box-shadow: -1px -1px 25px rgb(133, 133, 133);
+    border-radius: 10px;
+    margin: 150px 80px;
+    padding: 50px;
+}
+
+.sobreportifolio p{
+    margin: 50px 0;
+}
+
+.conteudolateral{
+    color: black;
+    font-size: 25px;
+    height: 100%;
+    width: 350px;
+    background-color: rgb(252, 251, 251, 0.4); /* Cor do vidro fosco com transparência */
+    box-shadow: -1px -1px 25px rgb(133, 133, 133);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin: 150px 80px;
+    padding: 40px;
+}
