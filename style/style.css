@@ -1,8 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
+
+/* Estiliza a barra de rolagem completa */
+::-webkit-scrollbar {
+    width: 5px;  /* largura da barra de rolagem vertical */
+    height: 5px; /* altura da barra de rolagem horizontal */
+    
+}
+
+/* Estiliza o trilho da barra de rolagem (fundo) */
+::-webkit-scrollbar-track {
+    background: rgb(243, 243, 243);; 
+    border-radius: 10px;
+    margin: 10px 50px;
+}
+
+/* Estiliza o polegar da barra de rolagem (a parte que se move) */
+::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+}
+
+/* Estiliza o polegar da barra de rolagem ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
@@ -53,11 +80,10 @@ a{
 
 /*area de postagem*/
 #conteudo{
-    width: 1300px;
+    width: 1350px;
     height: 100%;
     margin: auto;
-    display: flex;
-    clear: both;
+    
 }
 
 .sobreportifolio{
@@ -70,6 +96,7 @@ a{
     border-radius: 10px;
     margin: 150px 80px;
     padding: 50px;
+    float: left;
 }
 
 .sobreportifolio p{
@@ -87,4 +114,17 @@ a{
     border-radius: 10px;
     margin: 150px 80px;
     padding: 40px;
+    float: right;
+}
+
+/*slide de projetos*/
+
+.slide-de-projetos{
+    clear: both;
+    border: 1px solid;
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+    margin: 150px 80px;
+    background-color: black;
 }
