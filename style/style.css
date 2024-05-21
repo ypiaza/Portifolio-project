@@ -121,12 +121,13 @@ a{
 
 .slide-de-projetos{
     clear: both;
-    border: 1px solid;
     width: auto;
     height: 500px;
     border-radius: 10px;
     margin: 150px 80px;
-    background-color: black;
+    background-color: rgb(252, 251, 251, 0.4);
+    box-shadow: -1px -1px 25px rgb(133, 133, 133);
+    backdrop-filter: blur(10px);
 }
 
 
@@ -142,6 +143,12 @@ a{
 .perfil{
     height: 25px;
     width: 25px;
+    margin: 0 10px;
     border-radius: 10px 10px 10px 0;
     border: 2px solid black;
+}
+
+#rodape p{
+    font-weight: bold;
+    font-size: 12px;
 }
