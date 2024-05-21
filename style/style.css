@@ -128,3 +128,20 @@ a{
     margin: 150px 80px;
     background-color: black;
 }
+
+
+/*rodape*/
+
+#rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.perfil{
+    height: 25px;
+    width: 25px;
+    border-radius: 10px 10px 10px 0;
+    border: 2px solid black;
+}
