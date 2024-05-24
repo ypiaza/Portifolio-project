@@ -71,12 +71,29 @@ a{
     border-radius: 4px;
 }
 
+.contato-botao{
+    margin: 0 20px;   
+    padding: 8px 25px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+/*Resolver o hover do botao*/
+.contato-botao:hover{
+    color: black;
+    background-color: white;
+    transform: scaleX(1.1)  scaleY(1.1);
+    transition: all 0.2s ease;
+}
+
 .menu li a:hover{
     color: white;
     transform: scaleX(1.1)  scaleY(1.1);
     background-color: black;
     transition: all 0.2s ease;
 }
+
 
 /*area de postagem*/
 #conteudo{
