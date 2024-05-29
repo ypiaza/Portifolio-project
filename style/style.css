@@ -79,11 +79,10 @@ a{
     color: white;
 }
 
-/*Resolver o hover do botao*/
-.contato-botao:hover{
+.menu .contato-botao:hover {
     color: black;
     background-color: white;
-    transform: scaleX(1.1)  scaleY(1.1);
+    border: 1px solid black;
     transition: all 0.2s ease;
 }
 
@@ -100,7 +99,6 @@ a{
     width: 1350px;
     height: 100%;
     margin: auto;
-    
 }
 
 .sobreportifolio{
